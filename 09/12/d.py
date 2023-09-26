@@ -1,0 +1,15 @@
+from turtle import *
+color('red')
+for i in range(1, 11):
+    penup()
+    goto(-10*i, -10*i)
+    pendown()
+    forward(20*i)
+    left(90)
+    forward(20*i)
+    left(90)
+    forward(20*i)
+    left(90)
+    forward(20*i)
+    left(90)
+mainloop()
